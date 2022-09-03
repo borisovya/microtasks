@@ -7,6 +7,7 @@ import {OnOffAlternative} from "./components/OnOff/onOffAlternative";
 import ControlledAccordion from "./components/ControlledAccordion/ControlledAccordion";
 import {ControlledRating, RatingValueType} from "./components/Rating/ControlledRating";
 import { ControlledOnOff } from './components/OnOff/ControlledOnOff';
+import UncontrolledAccordion from "./components/Accordion/UncontrolledAccordion";
 
 
 
@@ -45,6 +46,8 @@ function App() {
             <ControlledRating value={ratingValue}
                               onClickFunction={setRatingValue}/>
 
+
+            <UncontrolledAccordion titleValue={'Menu'}/>
 
         </div>
     )
