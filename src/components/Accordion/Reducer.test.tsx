@@ -24,7 +24,6 @@ test('reducer should change value', () => {
     expect(newState.collapsed).toBe(false)
 })
 
-
 test('reducer test fake type', () => {
 
     const state: StateType = {
